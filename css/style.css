@@ -213,8 +213,9 @@ body {
 
 .accordeon__item {
     border-bottom: 1px solid #000;
-    padding: 50px 101px 0 0;
+    padding: 0 101px 0 0;
     position: relative;
+    cursor: pointer;
 }
 
 .accordeon__item::before {
@@ -240,6 +241,7 @@ body {
 .accordeon__triger {
     display: flex;
     justify-content: space-between;
+    padding-top: 50px;
 }
 
 .accordeon__triger-title {
@@ -258,6 +260,10 @@ body {
 .accordeon__content {
     padding-top: 20px;
     display: none;
+}
+
+.accordeon__item--active .accordeon__content {
+    display: block;
 }
 
 .accordeon__content p {

@@ -20,3 +20,9 @@ const swiperAbout = new Swiper(".about__slider", {
     },
 });
 
+document.querySelectorAll('.accordeon__triger').forEach((item) => {
+    item.addEventListener('click', () => {
+        item.parentNode.classList.toggle('accordeon__item--active')
+    })
+});
+
