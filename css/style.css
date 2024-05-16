@@ -272,6 +272,7 @@ body {
 
 .products {
     margin-bottom: 150px;
+    overflow: hidden;
 }
 
 .products__inner {
