@@ -17,6 +17,13 @@ ul {
     list-style-type: none;
 }
 
+button {
+    background-color: transparent;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+}
+
 .container {
     max-width: 1220px;
     padding: 0 10px;
@@ -325,4 +332,21 @@ body {
     line-height: 1.34;
     font-size: 32px;
     font-style: italic;
+}
+
+.video {
+    margin-bottom: 150px;
+}
+
+.video__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    max-width: 997px;
+    min-height: 600px;
+    background-image: url(../images/video-bj.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
