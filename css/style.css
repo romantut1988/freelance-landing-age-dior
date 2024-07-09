@@ -444,3 +444,5 @@ body {
     margin-left: auto;
     gap: 0 20px;
 }
+
+@media(max-width: 1500px) {}
