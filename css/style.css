@@ -531,6 +531,10 @@ body {
         margin-bottom: auto;
         right: 25px;
     }
+
+    .video__box {
+        min-height: 435px;
+    }
 }
 
 @media(max-width: 630px) {
@@ -610,8 +614,28 @@ body {
         width: 1500px;
     }
 
+    .accordeon {
+        margin-bottom: 140px;
+    }
+
     .accordeon__item:last-child::after {
         left: 200px;
+    }
+
+    .top {
+        margin-bottom: 50px;
+    }
+
+    .video__box {
+        min-height: 225px;
+    }
+
+    .products {
+        margin-bottom: 50px;
+    }
+
+    .video {
+        margin-bottom: 50px;
     }
 }
 
