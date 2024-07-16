@@ -155,6 +155,10 @@ body {
     overflow: hidden;
 }
 
+.swiper-pagination {
+    display: none;
+}
+
 .about__inner {
     padding-left: 200px;
 }
@@ -492,6 +496,18 @@ body {
 
     .about__textbox {
         margin-bottom: 50px;
+    }
+
+    .container-arrow {
+        display: none;
+    }
+
+    .swiper-pagination {
+        display: block;
+    }
+
+    .swiper-pagination-bullet-active {
+        background: #7449BB;
     }
 }
 
